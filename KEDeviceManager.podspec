@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/KorelskayaElya/KEDeviceManager'
   s.authors = { 'KorelskayaElya' => 'korelskaya2000@mail.ru' }
 
-  s.source = { :git => 'https://github.com/KorelskayaElya/KEDeviceManager', :tag => s.version.to_s }
-  s.source_files = 'Sources/*.swift'
+  s.source = { :git => 'https://github.com/KorelskayaElya/KEDeviceManager.git', :tag => s.version.to_s }
+  s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.0'
   s.platform = :ios, '12.0'
 
